@@ -1,0 +1,101 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    padding: 40px;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+ul, ol {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.highlight-link {
+    color: #d35400;
+    font-weight: bold;
+}
+
+.form-container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-left: 6px solid #3498db;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s ease;
+}
+input:focus,
+textarea:focus {
+    border-color: #2980b9;
+}
+
+.submit-button {
+    margin-top: 25px;
+    padding: 12px 30px;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.submit-button:hover {
+    background-color: #27ae60;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

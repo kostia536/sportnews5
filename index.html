@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Новини спорту</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Карта спортивного порталу</h1>
+
+        <img src="завантаження.jpg" alt="Футбольна тематика">
+
+        <h2>Основні розділи сайту</h2>
+        <ul>
+            <li><strong>Головна</strong> — <a href="#">останні спортивні новини</a></li>
+            <li><strong>Новини</strong> — <a href="#">щоденні оновлення з усього спортивного світу</a></li>
+            <li><strong>Розклад матчів</strong> — <a class="highlight-link" href="https://isport.ua/ua/football/ukraine/1197250-kalendar-matchiv-zbirnoyi-ukrayini-komanda-rebrova-zigraje-v-plej-off-ligi-natsij" target="_blank">переглянути актуальний календар матчів збірної України</a></li>
+        </ul>
+
+        <h2>Результати та аналітика</h2>
+        <ol>
+            <li>Результати — підсумки завершених ігор</li>
+            <li>Аналітика — коментарі та експертні огляди</li>
+            <li>Інтерв'ю — розмови зі спортсменами та тренерами</li>
+        </ol>
+
+        <h2>Додаткова інформація</h2>
+        <ol>
+            <li>Про нас
+                <ol type="a">
+                    <li>Історія створення</li>
+                    <li>Команда редакторів</li>
+                </ol>
+            </li>
+            <li>Контакти
+                <ol type="a">
+                    <li>Форма зворотного зв'язку</li>
+                    <li>Реклама та партнерство</li>
+                </ol>
+            </li>
+        </ol>
+
+        <div class="form-container">
+            <h2>Опитування: Футбол у твоєму житті</h2>
+            <form>
+                <label>Яка ваша улюблена футбольна команда?</label>
+                <input type="radio" name="team" value="Динамо"> Динамо Київ<br>
+                <input type="radio" name="team" value="Шахтар"> Шахтар Донецьк<br>
+                <input type="radio" name="team" value="Інша"> Інша<br>
+
+                <label>Які футбольні турніри ви регулярно переглядаєте?</label>
+                <input type="checkbox" name="tournament" value="Ліга чемпіонів"> Ліга чемпіонів<br>
+                <input type="checkbox" name="tournament" value="Ліга Європи"> Ліга Європи<br>
+                <input type="checkbox" name="tournament" value="Чемпіонат світу"> Чемпіонат світу<br>
+                <input type="checkbox" name="tournament" value="УПЛ"> Українська Прем'єр-ліга<br>
+
+                <label>Ваша дата народження:</label>
+                <input type="date" name="dob">
+
+                <label>Кого ви вважаєте найкращим футболістом усіх часів і чому?</label>
+                <textarea rows="4" name="player_reason" placeholder="Напишіть вашу думку..."></textarea>
+
+                <button type="submit" class="submit-button">Надіслати</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
